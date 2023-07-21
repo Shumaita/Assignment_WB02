@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Food Item</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/food.jpg">
+    <style>
+        h1 {
+            background-color: plum;
+            color: #000;
+        }
+
+        #fast-food {
+            background-color: #000;
+            color: #fff;
+        }
+
+        #id1 {
+            background-color: darkred;
+            color: #fff;
+        }
+
+        #id2 {
+            background-color: deeppink;
+            color: #fff;
+        }
+
+        #id3 {
+            background-color: slateblue;
+            color: #fff;
+        }
+
+        #id4 {
+            background-color: chocolate;
+            color: #fff;
+        }
+
+        #id5 {
+            background-color: burlywood;
+            color: #fff;
+        }
+
+        #desert {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Choose Your Favourite Food Item</h1>
+    <h2>INFO</h2>
+    <p>Write your full name and id(WB2302..) here.</p>
+    <hr>
+    <a href="#contact">Contact With Us</a>
+    <!-- Fast-Food-->
+    <div class="food">
+        <h2 align="center" id="fast-food">Fast Foods</h2>
+        <ul>
+            <li><a href="#fast-food">Fast Foods</a>
+                <dl>
+                    <dt><a href="#id1">Burger</a> </dt>
+                    <dd>Do you like burgers?Give the answer here and write a short note about it. (everyone's answer must be unique).</dd>
+
+                    <dt><a href="#id2">Pizza</a></dt>
+                    <dd>Do you like pizza?Give the answer here and write a short note about it. (everyone's answer must be unique)</dd>
+
+                    <dt><a href="#id3">French Fries</a> </dt>
+                    <dd>Do you like french fries?Give the answer here and write a short note about it. (everyone's answer must be unique)</dd>
+                </dl>
+
+            </li>
+            <hr>
+        </ul>
+        <img src="image/fast-food.jpg" width="500px" height="300px" alt="">
+    </div>
+    <div>
+        <h2 align="center" id="id1">Burger</h2>
+        <img src="image/burgers.jpg" width="325px" height="300px" alt="">
+        <img src="image/burgers-1.jpg" width="325px" height="300px" alt="">
+    </div>
+    <div>
+        <h2 align="center" id="id2">Pizza</h2>
+        <img src="image/pizza.jpg" width="325px" height="300px" alt="">
+        <img src="image/pizza-1.jpg" width="325px" height="300px" alt="">
+    </div>
+    <div>
+        <h2 align="center" id="id3">French Fries</h2>
+        <img src="image/French-Fries.jpg" width="325px" height="300px" alt="">
+        <img src="image/french-fries-1.jpg" width="325px" height="300px" alt="">
+    </div>
+
+    <!--Deserts-->
+    <div class="food">
+        <h2 align="center" id="desert">Deserts</h2>
+        <ul>
+            <li><a href="#desert">Deserts</a>
+                <dl>
+                    <dt><a href="#id4">Chocolate cake</a> </dt>
+                    <dd>Do you like chocolate cake?Give the answer here and write a short note about it. (everyone's answer must be unique)</dd>
+
+                    <dt><a href="#id5">Pudding</a></dt>
+                    <dd>Do you like pudding?Give the answer here and write a short note about it. (everyone's answer must be unique)</dd>
+                </dl>
+            </li>
+            <hr>
+        </ul>
+        <img src="image/desert.jpg" width="500px" height="300px" alt="">
+    </div>
+    <div>
+        <h2 align="center" id="id4">Chocolate Cake</h2>
+        <img src="image/chcolate-cake.jpg" width="325px" height="300px" alt="">
+        <img src="image/chocolate-cake-1.jpg" width="325px" height="300px" alt="">
+    </div>
+    <div>
+        <h2 align="center" id="id5">Pudding</h2>
+        <img src="image/pudding.jpg" width="325px" height="300px" alt="">
+        <img src="image/pudding-1.jpg" width="325px" height="300px" alt="">
+    </div>
+    <div align="center">
+        <form action="#" method="get" target="_blank">
+            <fieldset>
+                <legend align="center" id="contact">Contact Form</legend>
+                <label for="Fname">First Name:</label>
+                <input type="text" placeholder="Enter your first name" id="Fname" required><br><br>
+                <label for="Lname">Last Name:</label>
+                <input type="text" placeholder="Enter your last name" id="Lname"><br><br>
+                <label for="ID">Matric ID:</label>
+                <input type="text" placeholder="Enter your matric id" id="ID"><br><br>
+                <label for="">Email:</label>
+                <input type="email" placeholder="example@gmail.com"><br><br>
+                <label for="">Password:</label>
+                <input type="password" placeholder="Enter your password"><br><br>
+                <label for="">Contact No:</label>
+                <input type="text"><br><br>
+                <label for="">Gender:</label>
+                <input type="radio" name="gender">
+                <label for="">Male</label>
+                <input type="radio" name="gender">
+                <label for="">Female</label>
+                <input type="radio" name="gender">
+                <label for="">Others</label><br><br>
+                <button>Submission</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <h2>Question-Answer</h2>
+    <p>What is ol,ul and li in html? Write your answer here.</p>
+    <p>What is td and th in html? Write your answer here.</p>
+    <p>Which tag defines a hyperlink in html? Write your answer here.</p>
+</body>
+
+</html>
+<!--
+========================================================================
+                        Name And ID
+========================================================================
+Name:Your Name
+ID:WB2302***
+Mentor  Name: Your Mentors Name
+-->
 
